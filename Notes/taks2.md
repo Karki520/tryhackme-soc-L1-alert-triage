@@ -24,7 +24,7 @@ Event → Log → SIEM/EDR → Detection Rule → Alert → Triage
 - **ITSM**: Jira, TheHive - For ticket management after triage
 
 ## 2. L1 Role in Alert Triage - My Notes
-SOC L1 analysts: are the first line of defense. We deal with alerts the most.
+SOC L1 analysts: are the first line of defense. We deal with alerts the most
 SOC L2 analysts:  Receive the alerts escalated by L1 analysts and perform deeper analysis and remediation
 SOC engineers:  Ensure the alerts contain enough information required for efficient alert triage
 SOC manager:  Track speed and quality of alert triage to ensure that real attacks won't be missed
