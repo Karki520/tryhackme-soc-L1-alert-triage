@@ -26,6 +26,9 @@ Note to self: TP = Real danger | FP = Fake alarm. Can't mix these up.
 
 **Assignee**: Owner of alert. Mine shows "You L1" so I have to close it. SOC rule: "Jo uthayega wahi band karega"
 
+<img width="720" height="500" alt="closed alert" src="https://github.com/user-attachments/assets/f558e2f5-b9a8-45c2-bcf3-f91737b395e5" />
+
+
 **Analyst Comment**: This is my report for L2 team. Write what I checked, what I found, what action I took.
  
 ## 2. Key Takeaway
