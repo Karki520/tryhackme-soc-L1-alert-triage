@@ -1,0 +1,34 @@
+# Alert Triage Fields + Investigation Notes
+
+**Room:** TryHackMe - SOC L1 Alert Triage  
+**Alert:** Double-Extension File Creation  
+**Status:** In Progress → Closed as TP  
+**Date:** 30-05-2026
+
+## 1. Alert Fields I Learned Today
+Working inside the alert panel for first time. Each field has a purpose in SOC:
+
+**Status**: Shows what stage alert is at
+- New: Alert just came in, no one picked it yet
+- In Progress: I assigned it to myself, started investigating
+- Closed: Work done, saved and closed the case
+
+**Verdict**: My final call after investigation. This is most important field.
+- True Positive TP: Alert was real. Actual malware/attack happened. Must escalate to L2
+- False Positive FP: SIEM gave false alarm. Nothing malicious. Close it and tell engineer to tune rule
+- Benign Positive: Attack happened but got blocked. No damage done
+
+Note to self: TP = Real danger | FP = Fake alarm. Can't mix these up.
+
+**Severity**: How serious SIEM thinks this is
+- Critical/High: Check right now. My alert was High priority
+- Medium/Low: Can wait. Like normal port scans
+
+**Assignee**: Owner of alert. Mine shows "You L1" so I have to close it. SOC rule: "Jo uthayega wahi band karega"
+
+**Analyst Comment**: This is my report for L2 team. Write what I checked, what I found, what action I took.
+ 
+## 2. Key Takeaway
+Clicked Save and closed my first alert as L1 analyst. Felt good.
+Biggest lesson: Verdict decides everything. If I mark TP as FP, real attack gets missed. 
+If I mark FP as TP, L2 team wastes time. Need to be sure before closing
