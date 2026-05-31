@@ -1,3 +1,4 @@
+
 # Task 5 - Alert Triage Workflow Notes
 
 **Room:** SOC L1 Alert Triage - TryHackMe   
@@ -6,6 +7,8 @@
 ### Part 1: Triage Workflow - 3 Steps
 
 After selecting the right alert, we cannot jump directly to a decision. We must follow a proper process.
+
+<img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/f2dff142-2d93-4ea5-8942-3d5d40a85e43" />
 
 #### 1. Initial Actions
 **Purpose:** Take ownership of the alert + prevent other analysts from working on it
